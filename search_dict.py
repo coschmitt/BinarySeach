@@ -2,7 +2,7 @@ from sqlalchemy import create_engine, select, Table, MetaData, Column
 from itertools import permutations
 
 
-engine = create_engine("mysql+pymysql://root:Metric79@localhost:3306/entries")
+engine = create_engine("mysql+pymysql://root:{password}@localhost:3306/entries")
 
 metadata = MetaData()
 
